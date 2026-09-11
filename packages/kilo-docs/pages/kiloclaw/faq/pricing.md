@@ -5,11 +5,13 @@ description: "Pricing details for KiloClaw instances and model inference"
 
 # Pricing
 
+{% partial file="kiloclaw-eol.md" /%}
+
 KiloClaw uses Kilo Gateway credits by default — if you route requests through BYOK, model usage is billed directly by your provider instead.
 
 ## Instance Hosting
 
-Each user gets a dedicated machine (2 shared vCPUs, 3 GB RAM, 10 GB SSD).
+Each user gets a dedicated machine (2 shared vCPUs, 3 GB RAM, 10 GB SSD). Visit [kilo.ai/pricing](https://kilo.ai/pricing) for current pricing and plans.
 
 ## Model Inference
 
